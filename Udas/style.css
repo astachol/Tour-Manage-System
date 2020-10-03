@@ -1,0 +1,277 @@
+body{
+background:url(images/patter.JPG);
+}
+#wrapper{
+width:952px;
+margin:0 auto;
+}
+
+
+.search-box{
+  font-family: "Candara", sans-serif;
+  position: left;
+  background: #333A45;
+  height: 40px;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: 0 0 25px 0 rgba(51, 58, 69, 0.4);
+}
+
+.search-box input{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  width: 0px;
+  transition: all 0.8s;
+}
+
+.search-box:hover input{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box input:focus{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-btn{
+  border: none;
+  background: none;
+  outline: none;
+  width: 40px;
+  margin-top: -21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-btn i{
+  z-index: 1;
+  background: #00B894;
+  font-size: 30px;
+  color: #333A45;
+  padding: 25px;
+  border-radius: 50px;
+  box-shadow: 0 0 25px 0 rgba(0, 184, 148, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_section h1
+{
+color:gray;
+font:normal 80px 'century Gothic';
+}
+.navigation{
+background:;
+height:50px;
+}
+.navigation ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+.navigation ul li {
+color:white;
+font:normal 16px/45px 'century Gothic';
+padding:-1px 20px 0 0;
+list-style:none;
+float:left;
+border-left:1px solid #76a5d3; border-right:1px solid #285683;position:relative;
+}
+.navigation ul li:first-child {
+border-left:0px solid #285683;
+}
+.navigation ul li:last-child {
+border-right:0px solid #285683;
+}
+.navigation ul li a{
+display:block;padding:22px;
+text-decoration:none;color:white;
+}
+.navigation ul li a:hover{
+background:#285683;
+}
+/* drop down css*/
+.navigation ul li ul{position:absolute;left:-9999px}
+.navigation ul li:hover ul{left:-1px;}
+.navigation ul li ul{background:#76a5d3;}
+.navigation ul li ul li{float:none;width:170px;}
+.navigation ul li ul li a{background: #76a5d3;padding:10px 15px;text-align:center;}
+.navigation ul li ul li a:hover{}
+/* submenu css*/
+
+.navigation ul li ul li ul{display:none;margin-left:170px;margin-top:-64px;}
+.navigation ul li ul li:hover ul{display:block;}
+
+
+.main_body{
+width:100%;
+background:white;
+overflow:hidden;
+}
+.body_main
+{
+width:932px;
+margin:0 auto;
+padding:20px 0 30px 0;
+}
+.left_section{
+width:680px;
+float:left;
+}
+.right_section
+{
+width:230px;
+float:right;
+}
+.left_section h1{
+color:black;
+font:normal 28px 'century Gothic';
+}
+.left_section p{
+color:black;
+font:normal 20px/25px 'century Gothic';
+}
+.left_section p a{
+color:blue;
+text-decoration:none;
+}
+.left_section p a:hover{
+color:red;
+}
+.left_section h2{
+color:red;
+font:normal 24px/26px 'century Gothic';
+}
+.left_section ul{
+padding:0;
+margin:0;
+}
+.left_section ul li{
+color:black;
+font:normal 16px/24px 'century Gothic';
+margin:0 0 15px 35px;
+list-style:disc;
+}
+.left_section ul li a{
+color:blue;
+text-decoration:none;
+}
+.left_section ul li a:hover{
+color:red;
+}
+.latest_news
+{
+background:lightgray;
+padding:10px;
+margin:0 0 25px 0;
+}
+.latest_news h3{
+color:black;
+font:normal 20px/22px 'century Gothic';
+margin:0 0 10px 0;
+}
+.latest_news h4{
+color:red;
+font:normal 10px/20px 'century Gothic';
+margin:10px 0 0 0;
+}
+.latest_news h5{
+color:black;
+font:mormal 14px/16px 'century Gothic';
+margin:12px 0 0 0;
+}
+.latest_news p{
+color:black;
+font:normal 12px/16px 'century Gothic';
+margin:10px 0 0 0;
+}
+.latest_news a{
+color:blue;
+font:normal 12px/16px 'century Gothic';
+margin:10px 0 0 0;
+text-decoration:none;
+}
+.latest_news a:hover{
+color:red;
+}
+.latest_link{
+background:lightgray;
+padding:10px;
+}
+.latest_link h3{
+color:black;
+font:normal 20px/22px 'century Gothic';
+margin:0 0 10px 0;
+
+}
+.latest_link ul{
+padding:0;
+margin:0;
+}
+.latest_link ul li{
+color:blue;
+font:normal 14px/16px 'century Gothic';
+padding:0 0 12px 0;
+list-style:square;
+margin:0 0 0 30px;
+}
+.latest_link ul li a{
+color:blue;
+text-decoration:none;
+}
+.latest_link ul li a:hover{
+color:red;
+}
+.footer_section{
+background:url(images/tab.JPG);
+padding:15px;
+text-align:center;
+
+}
+.fotter_link ul{
+padding:0;
+margin:0;
+}
+.fotter_link ul li{
+color:white;
+font:normal 13px/15px 'century Gothic';
+display:inline-block;
+padding:0 15px 0 0;
+}
+.fotter_link ul li a{
+color:white;
+text-decoration:none;
+}
+.fotter_link ul li a:hover{
+color:yellow;
+}
+.fotter_copyright p{
+color:gray;
+font:normal 12px/15px 'century Gothic';
+}
